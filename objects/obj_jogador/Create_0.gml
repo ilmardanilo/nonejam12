@@ -28,7 +28,7 @@ mover_jogador = function()
 		if (sprite_index != spr_jogador_andando)
 		{
 			sprite_index = spr_jogador_andando;
-			image_index = 0; // reinicia animacao
+			image_index = 0;
 		}
 		image_speed = 0.7;
 	}
