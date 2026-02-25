@@ -35,7 +35,7 @@ for (var _i = 0; _i < _tam_menu; _i++)
 				case menu_inicial[0]: //Jogar
 					room_goto(rm_casa)
 					break
-				case menu_inicial[2]: //Sair
+				case menu_inicial[1]: //Sair
 					game_end()
 					break
 			}
