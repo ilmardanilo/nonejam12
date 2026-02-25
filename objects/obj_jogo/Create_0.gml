@@ -1,0 +1,1 @@
+global.sombras_liberadas = [false, false, false];

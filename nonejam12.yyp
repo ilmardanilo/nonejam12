@@ -6,6 +6,7 @@
     {"id":{"name":"spr_jogador_parado","path":"sprites/spr_jogador_parado/spr_jogador_parado.yy",},"order":0,},
     {"id":{"name":"obj_parede_invisivel","path":"objects/obj_parede_invisivel/obj_parede_invisivel.yy",},"order":1,},
     {"id":{"name":"spr_sombra_3","path":"sprites/spr_sombra_3/spr_sombra_3.yy",},"order":8,},
+    {"id":{"name":"obj_jogo","path":"objects/obj_jogo/obj_jogo.yy",},"order":2,},
     {"id":{"name":"spr_decoracoes","path":"sprites/spr_decoracoes/spr_decoracoes.yy",},"order":5,},
     {"id":{"name":"spr_sombra_1","path":"sprites/spr_sombra_1/spr_sombra_1.yy",},"order":6,},
     {"id":{"name":"spr_parede_invisivel","path":"sprites/spr_parede_invisivel/spr_parede_invisivel.yy",},"order":9,},
@@ -14,6 +15,7 @@
     {"id":{"name":"spr_jogador_andando","path":"sprites/spr_jogador_andando/spr_jogador_andando.yy",},"order":1,},
     {"id":{"name":"spr_sombra_2","path":"sprites/spr_sombra_2/spr_sombra_2.yy",},"order":7,},
     {"id":{"name":"spr_piso","path":"sprites/spr_piso/spr_piso.yy",},"order":2,},
+    {"id":{"name":"obj_controlador_casa","path":"objects/obj_controlador_casa/obj_controlador_casa.yy",},"order":3,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
