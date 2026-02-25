@@ -1,1 +1,1 @@
-global.sombras_liberadas = [false, false, false];
+//obj_global.sombras_liberadas = [false, false, false];
