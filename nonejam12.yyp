@@ -11,7 +11,6 @@
     {"id":{"name":"spr_parede_invisivel","path":"sprites/spr_parede_invisivel/spr_parede_invisivel.yy",},"order":9,},
     {"id":{"name":"spr_parte_cima","path":"sprites/spr_parte_cima/spr_parte_cima.yy",},"order":4,},
     {"id":{"name":"obj_jogador","path":"objects/obj_jogador/obj_jogador.yy",},"order":0,},
-    {"id":{"name":"spr_parede","path":"sprites/spr_parede/spr_parede.yy",},"order":3,},
     {"id":{"name":"spr_jogador_andando","path":"sprites/spr_jogador_andando/spr_jogador_andando.yy",},"order":1,},
     {"id":{"name":"spr_sombra_2","path":"sprites/spr_sombra_2/spr_sombra_2.yy",},"order":7,},
     {"id":{"name":"spr_piso","path":"sprites/spr_piso/spr_piso.yy",},"order":2,},
