@@ -3,6 +3,7 @@
   "resourceVersion": "1.6",
   "name": "nonejam12",
   "resources": [
+    {"id":{"name":"obj_porta","path":"objects/obj_porta/obj_porta.yy",},"order":4,},
     {"id":{"name":"spr_jogador_parado","path":"sprites/spr_jogador_parado/spr_jogador_parado.yy",},"order":0,},
     {"id":{"name":"obj_parede_invisivel","path":"objects/obj_parede_invisivel/obj_parede_invisivel.yy",},"order":1,},
     {"id":{"name":"spr_sombra_3","path":"sprites/spr_sombra_3/spr_sombra_3.yy",},"order":8,},
