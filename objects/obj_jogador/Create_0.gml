@@ -17,9 +17,12 @@ mover_jogador = function()
 	var _velocidade_horizontal = (_direita - _esquerda) * velocidade;
 	var _velocidade_vertical = (_baixo - _cima) * velocidade;
 	
+	var _x_antes = x;
+	var _y_antes = y;
+	
 	move_and_collide(_velocidade_horizontal, _velocidade_vertical, obj_parede_invisivel)
 	
-	var _movendo = (_velocidade_horizontal != 0 || _velocidade_vertical != 0);
+	var _movendo = (x != _x_antes || y != _y_antes);
 	
 	
 	if (_movendo)
