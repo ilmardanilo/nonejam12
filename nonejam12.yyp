@@ -7,6 +7,7 @@
     {"id":{"name":"obj_porta","path":"objects/obj_porta/obj_porta.yy",},"order":4,},
     {"id":{"name":"spr_jogador_parado","path":"sprites/spr_jogador_parado/spr_jogador_parado.yy",},"order":0,},
     {"id":{"name":"obj_jogador_menu","path":"objects/obj_jogador_menu/obj_jogador_menu.yy",},"order":1,},
+    {"id":{"name":"obj_gatilho_dialogo","path":"objects/obj_gatilho_dialogo/obj_gatilho_dialogo.yy",},"order":9,},
     {"id":{"name":"obj_pedra","path":"objects/obj_pedra/obj_pedra.yy",},"order":6,},
     {"id":{"name":"fnt_dialogo","path":"fonts/fnt_dialogo/fnt_dialogo.yy",},"order":1,},
     {"id":{"name":"obj_parede_invisivel","path":"objects/obj_parede_invisivel/obj_parede_invisivel.yy",},"order":1,},
@@ -28,6 +29,7 @@
     {"id":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},"order":1,},
     {"id":{"name":"obj_controlador_casa","path":"objects/obj_controlador_casa/obj_controlador_casa.yy",},"order":3,},
     {"id":{"name":"obj_menu","path":"objects/obj_menu/obj_menu.yy",},"order":0,},
+    {"id":{"name":"spr_gatilho_dialogo","path":"sprites/spr_gatilho_dialogo/spr_gatilho_dialogo.yy",},"order":12,},
     {"id":{"name":"rm_casa","path":"rooms/rm_casa/rm_casa.yy",},"order":0,},
   ],
   "Options": [

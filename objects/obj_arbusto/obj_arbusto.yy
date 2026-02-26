@@ -11,7 +11,10 @@
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_parede_invisivel",
+    "path": "objects/obj_parede_invisivel/obj_parede_invisivel.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,

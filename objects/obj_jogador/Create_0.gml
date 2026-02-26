@@ -20,7 +20,7 @@ mover_jogador = function()
 	var _x_antes = x;
 	var _y_antes = y;
 	
-	move_and_collide(_velocidade_horizontal, _velocidade_vertical, all)
+	move_and_collide(_velocidade_horizontal, _velocidade_vertical, obj_parede_invisivel)
 	
 	var _movendo = (x != _x_antes || y != _y_antes);
 	
