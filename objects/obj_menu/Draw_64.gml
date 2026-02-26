@@ -39,7 +39,8 @@ for (var _i = 0; _i < _tam_menu; _i++)
             switch (menu_inicial[_i])
             {
                 case menu_inicial[0]:
-                    room_goto(rm_casa);
+                    //room_goto(rm_casa);
+                    room_goto(rm_mente_fase_1);
                     break;
 
                 case menu_inicial[1]:
