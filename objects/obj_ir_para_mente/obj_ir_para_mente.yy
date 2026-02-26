@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_gatilho_dialogo",
+  "name": "obj_ir_para_mente",
   "spriteId": {
     "name": "spr_gatilho_dialogo",
     "path": "sprites/spr_gatilho_dialogo/spr_gatilho_dialogo.yy",

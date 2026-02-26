@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_sinapse",
+  "name": "obj_neuronio",
   "spriteId": {
-    "name": "spr_sinapse_parada",
-    "path": "sprites/spr_sinapse_parada/spr_sinapse_parada.yy",
+    "name": "spr_gatilho_dialogo",
+    "path": "sprites/spr_gatilho_dialogo/spr_gatilho_dialogo.yy",
   },
   "solid": false,
   "visible": true,
@@ -26,12 +26,8 @@
   "physicsShapePoints": [],
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,},
   ],
-  "properties": [
-    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"fase","varType":1,"value":"1","rangeEnabled":true,"rangeMin":0.0,"rangeMax":3.0,"listItems":[],"multiselect":false,"filters":[],},
-  ],
+  "properties": [],
   "overriddenProperties": [],
   "parent": {
     "name": "mente",

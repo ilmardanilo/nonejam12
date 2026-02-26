@@ -1,3 +1,5 @@
+if (lembrou) exit;
+
 if (!movendo)
 {
     var _cima = keyboard_check_pressed(vk_up);
@@ -53,4 +55,13 @@ if (movendo)
 if (keyboard_check_pressed(ord("R")))
 {
     room_restart();
+}
+
+if (place_meeting(x, y, obj_neuronio))
+{
+	lembrou = true;
+	sprite_index = spr_sinapse_lembrou;
+	image_index = 0;
+    
+    alarm[0] = game_get_speed(gamespeed_fps) * 3;
 }

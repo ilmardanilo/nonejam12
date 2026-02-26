@@ -30,6 +30,13 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_631A7F9C","properties":[
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"texto","path":"objects/obj_gatilho_dialogo/obj_gatilho_dialogo.yy",},"objectId":{"name":"obj_gatilho_dialogo","path":"objects/obj_gatilho_dialogo/obj_gatilho_dialogo.yy",},"value":"Hmm.. Nao tem nada na geladeira...",},
           ],"isDnd":false,"objectId":{"name":"obj_gatilho_dialogo","path":"objects/obj_gatilho_dialogo/obj_gatilho_dialogo.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":0.6875,"scaleY":0.375,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":304.0,"y":196.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_407D5EDF","properties":[
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"texto","path":"objects/obj_gatilho_dialogo/obj_gatilho_dialogo.yy",},"objectId":{"name":"obj_gatilho_dialogo","path":"objects/obj_gatilho_dialogo/obj_gatilho_dialogo.yy",},"value":"Aha, aqui está a chave do quarto!",},
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"ativo","path":"objects/obj_gatilho_dialogo/obj_gatilho_dialogo.yy",},"objectId":{"name":"obj_gatilho_dialogo","path":"objects/obj_gatilho_dialogo/obj_gatilho_dialogo.yy",},"value":"False",},
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"possui_chave","path":"objects/obj_gatilho_dialogo/obj_gatilho_dialogo.yy",},"objectId":{"name":"obj_gatilho_dialogo","path":"objects/obj_gatilho_dialogo/obj_gatilho_dialogo.yy",},"value":"True",},
+          ],"isDnd":false,"objectId":{"name":"obj_gatilho_dialogo","path":"objects/obj_gatilho_dialogo/obj_gatilho_dialogo.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.8125,"scaleY":0.625,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":784.0,"y":620.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_4910A875","properties":[],"isDnd":false,"objectId":{"name":"obj_chave_quarto","path":"objects/obj_chave_quarto/obj_chave_quarto.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.125,"scaleY":0.375,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":572.0,"y":668.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_61E1D2AA","properties":[],"isDnd":false,"objectId":{"name":"obj_ir_para_mente","path":"objects/obj_ir_para_mente/obj_ir_para_mente.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.25,"scaleY":0.5625,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":528.0,"y":544.0,},
       ],"visible":true,"depth":600,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":4,"gridY":4,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"portas","instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_51E59118","properties":[
@@ -145,6 +152,9 @@
     {"name":"inst_5F1E74C9","path":"rooms/rm_casa/rm_casa.yy",},
     {"name":"inst_21B7BD72","path":"rooms/rm_casa/rm_casa.yy",},
     {"name":"inst_631A7F9C","path":"rooms/rm_casa/rm_casa.yy",},
+    {"name":"inst_407D5EDF","path":"rooms/rm_casa/rm_casa.yy",},
+    {"name":"inst_4910A875","path":"rooms/rm_casa/rm_casa.yy",},
+    {"name":"inst_61E1D2AA","path":"rooms/rm_casa/rm_casa.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

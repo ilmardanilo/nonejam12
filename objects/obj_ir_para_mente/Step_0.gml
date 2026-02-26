@@ -5,13 +5,8 @@ if (collision_rectangle(bbox_left, bbox_top, bbox_right, bbox_bottom, obj_jogado
 {
     if (keyboard_check_pressed(vk_enter))
     {
-        scr_mostrar_dialogo(texto);
-        ativo = false;
-		
-		if (possui_chave) 
-		{
-			global.chaves_encontradas[chave - 1] = true
-		}
+		scr_mostrar_dialogo("Ahn, o que? Minha cabeça...")
+		room_goto(rm_mente_fase_1)
 		
         instance_destroy();
     }
