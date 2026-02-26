@@ -4,7 +4,7 @@ texto = "";
 texto_exibido = "";
 
 indice = 0;
-velocidade = 1;        // letras por step
-velocidade_acelerada = 5;
+velocidade = .5;
+velocidade_acelerada = 1.4;
 
 finalizado = false;
