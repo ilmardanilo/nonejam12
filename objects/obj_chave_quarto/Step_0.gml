@@ -1,3 +1,8 @@
+if (global.sombras_liberadas[0])
+{
+	instance_destroy()
+}
+
 if (!ativo) exit;
 
 if (collision_rectangle(bbox_left, bbox_top, bbox_right, bbox_bottom, obj_jogador, false, true))
@@ -13,7 +18,6 @@ if (collision_rectangle(bbox_left, bbox_top, bbox_right, bbox_bottom, obj_jogado
 		if (global.chaves_encontradas[0])
 		{
 			global.sombras_liberadas[0] = true
-			instance_destroy()
 		}
 		
 		ativo = false
