@@ -1,4 +1,4 @@
-velocidade = 4;
+velocidade = 7;
 
 movendo = false;
 lembrou = false
