@@ -11,3 +11,8 @@ else
 	}
 	image_speed = 0;
 }
+
+if (keyboard_check(vk_space))
+{
+	scr_mostrar_dialogo("Será que deu bom?Será que deu bom?Será que deu bom?Será que deu bom?Será que deu bom?Será que deu bom?Será que deu bom?")
+}

@@ -8,6 +8,7 @@
     {"id":{"name":"spr_jogador_parado","path":"sprites/spr_jogador_parado/spr_jogador_parado.yy",},"order":0,},
     {"id":{"name":"obj_jogador_menu","path":"objects/obj_jogador_menu/obj_jogador_menu.yy",},"order":1,},
     {"id":{"name":"obj_pedra","path":"objects/obj_pedra/obj_pedra.yy",},"order":6,},
+    {"id":{"name":"fnt_dialogo","path":"fonts/fnt_dialogo/fnt_dialogo.yy",},"order":1,},
     {"id":{"name":"obj_parede_invisivel","path":"objects/obj_parede_invisivel/obj_parede_invisivel.yy",},"order":1,},
     {"id":{"name":"spr_arbusto","path":"sprites/spr_arbusto/spr_arbusto.yy",},"order":10,},
     {"id":{"name":"scr_mostrar_dialogo","path":"scripts/scr_mostrar_dialogo/scr_mostrar_dialogo.yy",},"order":0,},
