@@ -3,3 +3,4 @@ if (instance_number(obj_jogo) > 1) {
 }
 
 global.sombras_liberadas = [false, false, false];
+global.player_pode_mover = true;
