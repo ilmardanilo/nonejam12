@@ -1,7 +1,7 @@
 var _w = display_get_gui_width();
 var _h = display_get_gui_height();
 
-draw_set_font(fnt_menu);
+draw_set_font(fnt_tutorial);
 draw_set_halign(fa_left);
 draw_set_valign(fa_top);
 
