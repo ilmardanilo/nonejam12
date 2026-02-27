@@ -13,3 +13,7 @@ global.lembrou_chave_quarto = false
 global.lembrou_chave_banheiro = false
 global.lembrou_chave_quintal = false
 global.lembrou_chave_casa = false
+
+
+global.viu_tutorial_casa = false
+global.viu_tutorial_mente = false

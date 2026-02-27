@@ -1,3 +1,11 @@
+if ((room == rm_casa && global.viu_tutorial_casa) ||
+    (room == rm_mente_fase_1 && global.viu_tutorial_mente))
+{
+    instance_destroy();
+    exit;
+}
+
+
 tempo_onda += 0.05;
 
 if (!removendo)
@@ -7,7 +15,7 @@ if (!removendo)
     if (keyboard_check_pressed(vk_anykey))
     {
         removendo = true;
-        timer_remover = game_get_speed(gamespeed_fps) * 2;
+        timer_remover = game_get_speed(gamespeed_fps) * 3;
     }
 }
 else
@@ -18,6 +26,15 @@ else
     
     if (timer_remover <= 0)
     {
+		
+		if (room == rm_casa)
+		{
+			global.viu_tutorial_casa = true
+		}
+		if (room == rm_mente_fase_1)
+		{
+			global.viu_tutorial_mente = true
+		}
         instance_destroy();
     }
 }
