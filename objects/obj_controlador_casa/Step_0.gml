@@ -12,7 +12,7 @@ if (global.sombras_liberadas[2]) {
 
 if (global.lembrancas_encontradas[0] && !global.lembrou_chave_quarto)
 {
-    scr_mostrar_dialogo("LEMBREI! A chave do quarto acho que estar no rack onde fica a TV");
+    scr_mostrar_dialogo("LEMBREI! A chave do quarto acho que está no rack onde fica a TV!");
     global.lembrou_chave_quarto = true;
     
     if (instance_exists(inst_407D5EDF))
