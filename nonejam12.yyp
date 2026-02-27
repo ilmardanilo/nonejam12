@@ -15,6 +15,7 @@
     {"id":{"name":"obj_pedra","path":"objects/obj_pedra/obj_pedra.yy",},"order":6,},
     {"id":{"name":"spr_mente_fase_1","path":"sprites/spr_mente_fase_1/spr_mente_fase_1.yy",},"order":0,},
     {"id":{"name":"obj_ir_para_mente","path":"objects/obj_ir_para_mente/obj_ir_para_mente.yy",},"order":12,},
+    {"id":{"name":"snd_mente","path":"sounds/snd_mente/snd_mente.yy",},"order":2,},
     {"id":{"name":"fnt_dialogo","path":"fonts/fnt_dialogo/fnt_dialogo.yy",},"order":1,},
     {"id":{"name":"obj_chave_quintal","path":"objects/obj_chave_quintal/obj_chave_quintal.yy",},"order":15,},
     {"id":{"name":"spr_sinapse_parada","path":"sprites/spr_sinapse_parada/spr_sinapse_parada.yy",},"order":1,},
