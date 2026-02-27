@@ -35,7 +35,7 @@ mover_jogador = function()
 			sprite_index = spr_jogador_andando;
 			image_index = 0;
 		}
-		image_speed = 0.7;
+		image_speed = 1;
 	}
 	else
 	{
