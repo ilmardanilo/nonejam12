@@ -1,7 +1,7 @@
 {
   "resourceType": "GMSound",
   "resourceVersion": "1.0",
-  "name": "snd_house",
+  "name": "snd_casa",
   "audioGroupId": {
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
@@ -14,7 +14,7 @@
   "bitRate": 128,
   "volume": 1.0,
   "preload": false,
-  "soundFile": "snd_house.mp3",
+  "soundFile": "snd_casa.mp3",
   "duration": 166.9747,
   "parent": {
     "name": "Sounds",
