@@ -15,21 +15,21 @@ draw_set_alpha(alpha_tutorial);
 // Quebra o texto em linhas
 var _lines = string_split(texto, "\n");
 
-for (var l = 0; l < array_length(_lines); l++)
+for (var _l = 0; _l < array_length(_lines); _l++)
 {
-    var _line = _lines[l];
+    var _line = _lines[_l];
     
     var _line_width = string_width(_line);
     var _x = (_w - _line_width) * 0.5;
-    var _y = _base_y + l * (string_height("A") + 6);
+    var _y = _base_y + _l * (string_height("A") + 6);
     
     var _char_x = _x;
     
-    for (var i = 1; i <= string_length(_line); i++)
+    for (var _i = 1; _i <= string_length(_line); _i++)
     {
-        var _char = string_char_at(_line, i);
+        var _char = string_char_at(_line, _i);
         
-        var _offset = sin(tempo_onda * _velocidade + i * 0.25) * _amplitude;
+        var _offset = sin(tempo_onda * _velocidade + _i * 0.25) * _amplitude;
         var _draw_y = _y + _offset;
         
         // Contorno preto
