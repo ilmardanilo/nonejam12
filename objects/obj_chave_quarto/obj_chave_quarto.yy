@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_chave_quarto",
   "spriteId": {
-    "name": "spr_gatilho_dialogo",
-    "path": "sprites/spr_gatilho_dialogo/spr_gatilho_dialogo.yy",
+    "name": "spr_gatilho_chave",
+    "path": "sprites/spr_gatilho_chave/spr_gatilho_chave.yy",
   },
   "solid": false,
   "visible": true,
