@@ -3,6 +3,7 @@ if (instance_number(obj_jogo) > 1) {
 }
 
 global.player_pode_mover = true;
+global.ultima_posicao_player = {x: 908, y: 204}
 
 global.sombras_liberadas = [false, false, false];
 global.chaves_encontradas = [false, false, false, false];

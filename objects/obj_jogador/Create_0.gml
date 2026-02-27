@@ -4,6 +4,9 @@
 sprite_index = spr_jogador_parado;
 image_speed = 0;
 
+x = global.ultima_posicao_player.x
+y = global.ultima_posicao_player.y
+
 
 mover_jogador = function()
 {

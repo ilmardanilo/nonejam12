@@ -1,3 +1,6 @@
+global.ultima_posicao_player.x = x
+global.ultima_posicao_player.y = y
+
 if (global.player_pode_mover)
 {
 	mover_jogador()
