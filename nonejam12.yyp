@@ -3,6 +3,7 @@
   "resourceVersion": "1.6",
   "name": "nonejam12",
   "resources": [
+    {"id":{"name":"snd_house","path":"sounds/snd_house/snd_house.yy",},"order":1,},
     {"id":{"name":"obj_arbusto","path":"objects/obj_arbusto/obj_arbusto.yy",},"order":5,},
     {"id":{"name":"fnt_tutorial","path":"fonts/fnt_tutorial/fnt_tutorial.yy",},"order":2,},
     {"id":{"name":"obj_sinapse","path":"objects/obj_sinapse/obj_sinapse.yy",},"order":0,},

@@ -7,6 +7,10 @@ image_speed = 0;
 x = global.ultima_posicao_player.x
 y = global.ultima_posicao_player.y
 
+bg_music = snd_house
+audio_stop_all()
+audio_play_sound(bg_music, 0, 1)
+
 
 mover_jogador = function()
 {
