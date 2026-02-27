@@ -37,6 +37,7 @@
           ],"isDnd":false,"objectId":{"name":"obj_gatilho_dialogo","path":"objects/obj_gatilho_dialogo/obj_gatilho_dialogo.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.8125,"scaleY":0.625,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":784.0,"y":620.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_4910A875","properties":[],"isDnd":false,"objectId":{"name":"obj_chave_quarto","path":"objects/obj_chave_quarto/obj_chave_quarto.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.125,"scaleY":0.375,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":572.0,"y":668.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_61E1D2AA","properties":[],"isDnd":false,"objectId":{"name":"obj_ir_para_mente","path":"objects/obj_ir_para_mente/obj_ir_para_mente.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.25,"scaleY":0.5625,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":528.0,"y":544.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_4DBEFD67","properties":[],"isDnd":false,"objectId":{"name":"obj_tutorial","path":"objects/obj_tutorial/obj_tutorial.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":20.0,"y":0.0,},
       ],"visible":true,"depth":600,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":4,"gridY":4,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"portas","instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_51E59118","properties":[
@@ -155,6 +156,7 @@
     {"name":"inst_407D5EDF","path":"rooms/rm_casa/rm_casa.yy",},
     {"name":"inst_4910A875","path":"rooms/rm_casa/rm_casa.yy",},
     {"name":"inst_61E1D2AA","path":"rooms/rm_casa/rm_casa.yy",},
+    {"name":"inst_4DBEFD67","path":"rooms/rm_casa/rm_casa.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
