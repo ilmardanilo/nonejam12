@@ -1,0 +1,1 @@
+sprite = spr_barra_lembranca_0
