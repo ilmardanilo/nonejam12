@@ -1,7 +1,4 @@
 menu_inicial = ["Jogar", "Sair"]
-escala[array_length(menu_inicial) - 1] = 0
 
-for (var _i = 0; _i < array_length(escala); _i++)
-{
-	escala[_i] = 1
-}
+offset_y = array_create(array_length(menu_inicial), 0);
+brilho = array_create(array_length(menu_inicial), 0.7);
