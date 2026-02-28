@@ -13,12 +13,11 @@ if (collision_rectangle(bbox_left, bbox_top, bbox_right, bbox_bottom, obj_jogado
 		if (global.chaves_encontradas[0])
 		{
 			_texto = "Hehe, agora posso abrir!"
-		}
-        scr_mostrar_dialogo(_texto);
-		if (global.chaves_encontradas[0])
-		{
+			audio_play_sound(snd_sfx_porta_quarto, 0, 0)
 			global.sombras_liberadas[0] = true
 		}
+		
+        scr_mostrar_dialogo(_texto);
 		
 		ativo = false
 		

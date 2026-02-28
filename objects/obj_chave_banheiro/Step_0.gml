@@ -13,12 +13,11 @@ if (collision_rectangle(bbox_left, bbox_top, bbox_right, bbox_bottom, obj_jogado
 		if (global.chaves_encontradas[1])
 		{
 			_texto = "Aew, aberta!"
-		}
-        scr_mostrar_dialogo(_texto);
-		if (global.chaves_encontradas[1])
-		{
+			audio_play_sound(snd_sfx_porta_banheiro, 0, 0)
 			global.sombras_liberadas[1] = true
 		}
+		
+        scr_mostrar_dialogo(_texto);
 		
 		ativo = false
 		

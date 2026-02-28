@@ -13,12 +13,10 @@ if (collision_rectangle(bbox_left, bbox_top, bbox_right, bbox_bottom, obj_jogado
 		if (global.chaves_encontradas[2])
 		{
 			_texto = "Agora posso ver se deixei a chave de casa lá fora"
-		}
-        scr_mostrar_dialogo(_texto);
-		if (global.chaves_encontradas[2])
-		{
+			audio_play_sound(snd_sfx_porta_quintal, 0, 0)
 			global.sombras_liberadas[2] = true
 		}
+        scr_mostrar_dialogo(_texto);
 		
 		ativo = false
 		
