@@ -1,3 +1,4 @@
-global.lembrancas_encontradas[fase - 1] = true;
+alarm[0] = -1;
 
-room_goto(rm_casa);
+global.lembrancas_encontradas[fase - 1] = true;
+instance_create_layer(0, 0, "Instances_1", obj_transicao_mente);

@@ -66,7 +66,7 @@ for (var _i = 0; _i < _tam_menu; _i++)
     var _y = _y_base + offset_y[_i];
 
     // sombra sutil
-    draw_set_alpha(0.3);
+    draw_set_alpha(0.7);
     draw_set_color(c_black);
     draw_text(_x + 2, _y + 2, menu_inicial[_i]);
 

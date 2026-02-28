@@ -77,5 +77,5 @@ if (place_meeting(x, y, obj_neuronio))
 	
 	audio_play_sound(snd_sfx_neuronio, 0, 0)
     
-    alarm[0] = game_get_speed(gamespeed_fps) * 3;
+    alarm[0] = game_get_speed(gamespeed_fps) * 2;
 }

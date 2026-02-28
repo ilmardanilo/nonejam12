@@ -34,6 +34,7 @@
     {"id":{"name":"obj_tutorial","path":"objects/obj_tutorial/obj_tutorial.yy",},"order":13,},
     {"id":{"name":"spr_arbusto","path":"sprites/spr_arbusto/spr_arbusto.yy",},"order":10,},
     {"id":{"name":"scr_mostrar_dialogo","path":"scripts/scr_mostrar_dialogo/scr_mostrar_dialogo.yy",},"order":0,},
+    {"id":{"name":"obj_transicao_mente","path":"objects/obj_transicao_mente/obj_transicao_mente.yy",},"order":3,},
     {"id":{"name":"rm_mente_fase_2","path":"rooms/rm_mente_fase_2/rm_mente_fase_2.yy",},"order":3,},
     {"id":{"name":"snd_sfx_keypress_1","path":"sounds/snd_sfx_keypress_1/snd_sfx_keypress_1.yy",},"order":9,},
     {"id":{"name":"spr_sinapse_lembrou","path":"sprites/spr_sinapse_lembrou/spr_sinapse_lembrou.yy",},"order":2,},
