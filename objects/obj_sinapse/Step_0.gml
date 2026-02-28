@@ -1,5 +1,17 @@
 if (lembrou) exit;
 
+if (pause_ativo) exit;
+
+// Pause
+if (keyboard_check_pressed(vk_escape) && !movendo)
+{
+    if (!instance_exists(obj_pause_mente))
+    {
+        instance_create_layer(0, 0, "Instances_1", obj_pause_mente);
+        pause_ativo = true;
+    }
+}
+
 if (!movendo)
 {
     var _cima = keyboard_check_pressed(vk_up);

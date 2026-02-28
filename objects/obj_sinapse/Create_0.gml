@@ -7,3 +7,5 @@ dir_y = 0;
 
 audio_stop_all()
 audio_play_sound(snd_mente, 0, 1)
+
+pause_ativo = false;
