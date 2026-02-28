@@ -31,6 +31,7 @@
     {"id":{"name":"obj_parede_invisivel","path":"objects/obj_parede_invisivel/obj_parede_invisivel.yy",},"order":1,},
     {"id":{"name":"snd_sfx_get_key","path":"sounds/snd_sfx_get_key/snd_sfx_get_key.yy",},"order":12,},
     {"id":{"name":"obj_chave_casa","path":"objects/obj_chave_casa/obj_chave_casa.yy",},"order":16,},
+    {"id":{"name":"snd_sfx_papel","path":"sounds/snd_sfx_papel/snd_sfx_papel.yy",},"order":14,},
     {"id":{"name":"snd_sfx_porta_quintal","path":"sounds/snd_sfx_porta_quintal/snd_sfx_porta_quintal.yy",},"order":6,},
     {"id":{"name":"obj_tutorial","path":"objects/obj_tutorial/obj_tutorial.yy",},"order":13,},
     {"id":{"name":"spr_arbusto","path":"sprites/spr_arbusto/spr_arbusto.yy",},"order":10,},

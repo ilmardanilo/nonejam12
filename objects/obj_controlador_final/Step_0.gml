@@ -24,6 +24,7 @@ switch (estado)
 			obj_barra_lembranca.alpha = 0
             estado = 2;
             timer = 0;
+			audio_play_sound(snd_sfx_papel, 0, 0)
         }
     break;
 
