@@ -6,6 +6,12 @@ switch (estado)
         if (timer >= game_get_speed(gamespeed_fps) * 5)
         {
             scr_mostrar_dialogo("Ué... tem alguma coisa no meu bolso...");
+			
+			audio_stop_all();
+			audio_id = audio_play_sound(snd_final, 0, 1);
+			audio_sound_gain(audio_id, 0, 0);
+			audio_volume_atual = 0;
+			
             estado = 1;
         }
     break;
@@ -48,4 +54,17 @@ switch (estado)
             estado = 5;
         }
     break;
+}
+
+if (audio_id != -1)
+{
+    if (audio_volume_atual < audio_volume_final)
+    {
+        audio_volume_atual += audio_velocidade_fade;
+        
+        if (audio_volume_atual > audio_volume_final)
+            audio_volume_atual = audio_volume_final;
+
+        audio_sound_gain(audio_id, audio_volume_atual, 0);
+    }
 }
