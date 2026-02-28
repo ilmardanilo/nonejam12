@@ -15,9 +15,9 @@ if (global.lembrancas_encontradas[0] && !global.lembrou_chave_quarto)
     scr_mostrar_dialogo("LEMBREI! A chave do quarto acho que está no rack onde fica a TV!");
     global.lembrou_chave_quarto = true;
     
-    if (instance_exists(inst_407D5EDF))
+    if (instance_exists(inst_rack))
     {
-        inst_407D5EDF.ativo = true;
+        inst_rack.ativo = true;
     }
 }
 
