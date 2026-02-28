@@ -13,7 +13,25 @@ if (_total_necessario > 0)
     _percentual = (global.interacoes_atuais / _total_necessario) * 100;
 }
 
-show_debug_message(string(_percentual));
+//Pulsação da barra
+var _target_scale = 1;
+if (_percentual >= 100)
+{
+    // Pulsação forte
+    _target_scale = 1 + (sin(current_time / 120) * 0.06);
+}
+else if (_percentual >= 75)
+{
+    // Pulsação leve
+    _target_scale = 1 + (sin(current_time / 180) * 0.03);
+}
+else
+{
+    _target_scale = 1;
+}
+
+// suaviza transição
+escala_atual = lerp(escala_atual, _target_scale, 0.15);
 
 if (_percentual <= 0)
     sprite = spr_barra_lembranca_0;
