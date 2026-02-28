@@ -47,15 +47,18 @@ for (var _i = 0; _i < _tam_menu; _i++)
             switch (_i)
             {
                 case 0: // CONTINUAR
+					audio_play_sound(snd_sfx_select_1, 0, 0)
                     obj_sinapse.pause_ativo = false
 					instance_destroy()
                     break;
 
                 case 1: // REINICIAR
+					audio_play_sound(snd_sfx_select_1, 0, 0)
                     room_restart();
                     break;
 
                 case 2: // VOLTAR MENU
+					audio_play_sound(snd_sfx_select_1, 0, 0)
                     game_restart();
                     break;
             }
