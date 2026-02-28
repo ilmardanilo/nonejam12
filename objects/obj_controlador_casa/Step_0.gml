@@ -46,5 +46,11 @@ if (global.lembrancas_encontradas[2] && !global.lembrou_chave_quintal) {
 
 if (global.lembrancas_encontradas[3] && !global.lembrou_chave_casa) {
 	//TODO inativar objs sala, cozinha, quarto, banheiro e quintal
-    show_debug_message("LEMBREI! No fim das contas eu fiz coisa de filme mesmo... a chave está no tapete da entrada.")
+    scr_mostrar_dialogo("LEMBREI! No fim das contas eu fiz coisa de filme mesmo... a chave está no tapete da entrada.")
+    global.lembrou_chave_casa = true;
+    
+    if (instance_exists(inst_tapete_entrada))
+    {
+        inst_tapete_entrada.ativo = true;
+    }
 }
