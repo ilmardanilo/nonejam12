@@ -57,6 +57,29 @@ switch (estado)
     break;
 }
 
+if (estado == 5)
+{
+    fim_timer++;
+
+    if (fim_timer >= game_get_speed(gamespeed_fps) * 5)
+    {
+        mostrar_pressione = true;
+    }
+
+    if (mostrar_pressione)
+    {
+        if (keyboard_check_pressed(vk_anykey) || mouse_check_button_pressed(mb_any))
+        {
+            game_restart()
+        }
+    }
+}
+else
+{
+    fim_timer = 0;
+    mostrar_pressione = false;
+}
+
 if (audio_id != -1)
 {
     if (audio_volume_atual < audio_volume_final)
