@@ -60,3 +60,31 @@ if (global.lembrancas_encontradas[3] && !global.lembrou_chave_casa) {
         inst_tapete_entrada.ativo = true;
     }
 }
+
+// Quarto
+mostrar_lembrete(
+    global.lembrancas_encontradas[0],
+    global.chaves_encontradas[0],
+    "**Acho que a chave do quarto está no rack da TV...**"
+);
+
+// Banheiro
+mostrar_lembrete(
+    global.lembrancas_encontradas[1],
+    global.chaves_encontradas[1],
+    "**Acho que deixei cair a chave do banheiro embaixo da cama...**"
+);
+
+// Quintal
+mostrar_lembrete(
+    global.lembrancas_encontradas[2],
+    global.chaves_encontradas[2],
+    "**Acho que joguei a chave do quintal na lixeira do banheiro...**"
+);
+
+// Casa final
+mostrar_lembrete(
+    global.lembrancas_encontradas[3],
+    global.chaves_encontradas[3],
+    "**Acho que coloquei a chave de casa no tapete da entrada...**"
+);

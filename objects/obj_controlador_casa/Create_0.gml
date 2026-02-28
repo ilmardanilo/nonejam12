@@ -1,3 +1,23 @@
+lembrete_timer = 0;
+lembrete_intervalo = game_get_speed(gamespeed_fps) * 30; // 30s
+
+mostrar_lembrete = function(_condicao_memoria, _condicao_chave, _texto)
+{
+    if (_condicao_memoria && !_condicao_chave)
+    {
+        lembrete_timer++;
+
+        if (lembrete_timer >= lembrete_intervalo)
+        {
+            if (!obj_dialogo.ativo)
+            {
+                scr_mostrar_dialogo(_texto);
+                lembrete_timer = 0;
+            }
+        }
+    }
+}
+
 marcar_sala_cozinha_concluida = function()
 {
     global.objetos_interagidos.cabideiro = true;
