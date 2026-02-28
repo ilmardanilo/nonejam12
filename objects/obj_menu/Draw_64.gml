@@ -16,13 +16,19 @@ draw_set_valign(fa_middle);
 
 var _tam_menu = array_length(menu_inicial);
 
+var _espacamento = 20;
+var _altura_item = string_height(menu_inicial[0]);
+var _altura_total = (_altura_item * _tam_menu) + (_espacamento * (_tam_menu - 1));
+
+var _y_inicio = (_hgui - _altura_total) / 2;
+
 for (var _i = 0; _i < _tam_menu; _i++)
 {
     var _largura_texto = string_width(menu_inicial[_i]);
     var _altura_texto = string_height(menu_inicial[_i]);
 
     var _x = _wgui / 2;
-    var _y_base = _hgui / 2 + (_altura_texto + 28) * _i;
+    var _y_base = _y_inicio + (_altura_item + _espacamento) * _i;
 
     var _x1 = _x - _largura_texto / 2;
     var _y1 = _y_base - _altura_texto / 2;
