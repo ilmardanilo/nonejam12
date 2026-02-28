@@ -15,3 +15,6 @@ estado = 0;
 // 1 = esperando primeiro diálogo fechar
 // 2 = esperando segundo diálogo fechar
 // 3 = trocar room
+
+transicao_alpha = 0;
+transicao_ativa = false;

@@ -14,6 +14,7 @@ if (estado == 2)
 {
     if (!obj_dialogo.ativo)
     {
+		transicao_ativa = true;
         estado = 3;
     }
     exit;
@@ -21,15 +22,32 @@ if (estado == 2)
 
 if (estado == 3)
 {
-    global.player_precisa_encontrar_chave_antes_de_voltar_a_interagir = true;
-
-    switch (global.chave_atual)
+	global.player_precisa_encontrar_chave_antes_de_voltar_a_interagir = true;
+	
+	var _zoom = 1 + (transicao_alpha * 0.15);
+	camera_set_view_size(
+	    view_camera[0],
+	    camera_get_view_width(view_camera[0]) / _zoom,
+	    camera_get_view_height(view_camera[0]) / _zoom
+	);
+	
+    if (transicao_ativa)
     {
-        case 0: room_goto(rm_mente_fase_1); break;
-        case 1: room_goto(rm_mente_fase_2); break;
-        case 2: room_goto(rm_mente_fase_3); break;
-        case 3: room_goto(rm_mente_fase_4); break;
+        transicao_alpha += 0.04;
+
+        if (transicao_alpha >= 1)
+        {
+            switch (global.chave_atual)
+            {
+                case 0: room_goto(rm_mente_fase_1); break;
+                case 1: room_goto(rm_mente_fase_2); break;
+                case 2: room_goto(rm_mente_fase_3); break;
+                case 3: room_goto(rm_mente_fase_4); break;
+            }
+        }
     }
+
+    exit;
 }
 
 if (!ativo) exit;
