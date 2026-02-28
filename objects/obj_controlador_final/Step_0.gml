@@ -26,17 +26,26 @@ switch (estado)
         timer++;
         if (timer >= game_get_speed(gamespeed_fps) * 30)
         {
+			scr_mostrar_dialogo("Cadê a chave...?");
             estado = 3;
         }
     break;
 
     case 3:
+        // espera fechar o segundo diálogo
+        if (!obj_dialogo.ativo)
+        {
+            estado = 4;
+        }
+    break;
+
+    case 4:
         // fade escuro
         alpha += 0.01;
         if (alpha >= 1)
         {
             alpha = 1;
-            estado = 4;
+            estado = 5;
         }
     break;
 }

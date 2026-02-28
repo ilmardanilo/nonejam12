@@ -8,3 +8,5 @@ velocidade = .5;
 velocidade_acelerada = 1.4;
 
 finalizado = false;
+
+depth = -1000;
