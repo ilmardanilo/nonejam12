@@ -23,6 +23,11 @@ global.lembrou_chave_casa = false;
 global.viu_tutorial_casa = false;
 global.viu_tutorial_mente = false;
 
+global.total_interacoes_por_chave = [4, 3, 2, 2];
+global.interacoes_atuais = 0;
+global.chave_atual = 0; // index 0 a 3
+global.player_precisa_encontrar_chave_antes_de_voltar_a_interagir = false;
+
 global.objetos_interagidos = {
 	rack: false,
 	embaixo_cama: false,
