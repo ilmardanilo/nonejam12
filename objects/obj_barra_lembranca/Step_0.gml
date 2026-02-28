@@ -20,7 +20,7 @@ if (_percentual >= 100)
     // Pulsação forte
     _target_scale = 1 + (sin(current_time / 120) * 0.06);
 }
-else if (_percentual >= 75)
+else if (_percentual >= 50)
 {
     // Pulsação leve
     _target_scale = 1 + (sin(current_time / 180) * 0.03);
