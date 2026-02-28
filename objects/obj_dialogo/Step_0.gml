@@ -19,6 +19,9 @@ if (!finalizado)
         finalizado = true;
     }
 
+	var _pitch = random_range(0.8, 1.2)
+	audio_play_sound(snd_sfx_keypress_1, 0, 0)
+	
     texto_exibido = string_copy(texto, 1, indice);
 }
 else

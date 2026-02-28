@@ -1,10 +1,10 @@
 {
   "resourceType": "GMSound",
   "resourceVersion": "1.0",
-  "name": "snd_casa",
+  "name": "snd_sfx_click",
   "conversionMode": 0,
   "compression": 0,
-  "volume": 1.0,
+  "volume": 0.1,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
@@ -14,8 +14,8 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "snd_casa.mp3",
-  "duration": 166.9747,
+  "soundFile": "snd_sfx_click.ogg",
+  "duration": 0.499977,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
