@@ -23,6 +23,7 @@
     {"id":{"name":"spr_sinapse_parada","path":"sprites/spr_sinapse_parada/spr_sinapse_parada.yy",},"order":1,},
     {"id":{"name":"spr_gatilho_chave","path":"sprites/spr_gatilho_chave/spr_gatilho_chave.yy",},"order":14,},
     {"id":{"name":"obj_parede_invisivel","path":"objects/obj_parede_invisivel/obj_parede_invisivel.yy",},"order":1,},
+    {"id":{"name":"snd_sfx_get_key","path":"sounds/snd_sfx_get_key/snd_sfx_get_key.yy",},"order":12,},
     {"id":{"name":"obj_chave_casa","path":"objects/obj_chave_casa/obj_chave_casa.yy",},"order":16,},
     {"id":{"name":"snd_sfx_porta_quintal","path":"sounds/snd_sfx_porta_quintal/snd_sfx_porta_quintal.yy",},"order":6,},
     {"id":{"name":"obj_tutorial","path":"objects/obj_tutorial/obj_tutorial.yy",},"order":13,},

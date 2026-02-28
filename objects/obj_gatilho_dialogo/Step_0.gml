@@ -16,6 +16,7 @@ if (collision_rectangle(bbox_left, bbox_top, bbox_right, bbox_bottom, obj_jogado
 		
 		if (possui_chave) 
 		{
+			audio_play_sound(snd_sfx_get_key, 0, 0)
 			global.chaves_encontradas[chave - 1] = true
 		}
 		
