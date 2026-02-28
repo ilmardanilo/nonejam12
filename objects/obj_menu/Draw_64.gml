@@ -40,8 +40,14 @@ for (var _i = 0; _i < _tam_menu; _i++)
         {
             switch (_i)
             {
-                case 0: room_goto(rm_casa); break;
-                case 1: game_end(); break;
+                case 0:
+					audio_play_sound(snd_sfx_select_1, 0, 0)
+					room_goto(rm_casa);
+					break;
+                case 1:
+					audio_play_sound(snd_sfx_select_2, 0, 0)
+					game_end(); 
+					break;
             }
         }
     }
