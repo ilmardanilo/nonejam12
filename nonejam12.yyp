@@ -40,6 +40,7 @@
     {"id":{"name":"spr_sombra_3","path":"sprites/spr_sombra_3/spr_sombra_3.yy",},"order":8,},
     {"id":{"name":"obj_jogo","path":"objects/obj_jogo/obj_jogo.yy",},"order":2,},
     {"id":{"name":"spr_decoracoes","path":"sprites/spr_decoracoes/spr_decoracoes.yy",},"order":5,},
+    {"id":{"name":"rm_mente_fase_4","path":"rooms/rm_mente_fase_4/rm_mente_fase_4.yy",},"order":5,},
     {"id":{"name":"spr_pedra","path":"sprites/spr_pedra/spr_pedra.yy",},"order":11,},
     {"id":{"name":"obj_neuronio","path":"objects/obj_neuronio/obj_neuronio.yy",},"order":1,},
     {"id":{"name":"spr_mente_fase_4","path":"sprites/spr_mente_fase_4/spr_mente_fase_4.yy",},"order":5,},
@@ -95,6 +96,7 @@
     {"roomId":{"name":"rm_mente_fase_1","path":"rooms/rm_mente_fase_1/rm_mente_fase_1.yy",},},
     {"roomId":{"name":"rm_mente_fase_2","path":"rooms/rm_mente_fase_2/rm_mente_fase_2.yy",},},
     {"roomId":{"name":"rm_mente_fase_3","path":"rooms/rm_mente_fase_3/rm_mente_fase_3.yy",},},
+    {"roomId":{"name":"rm_mente_fase_4","path":"rooms/rm_mente_fase_4/rm_mente_fase_4.yy",},},
   ],
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Animation Curves","folderPath":"folders/Animation Curves.yy","order":12,},
