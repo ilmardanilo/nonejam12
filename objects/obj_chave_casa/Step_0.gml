@@ -8,8 +8,9 @@ if (collision_rectangle(bbox_left, bbox_top, bbox_right, bbox_bottom, obj_jogado
 		var _texto = "Hmmm, está trancada... Onde será que eu deixei dessa vez?"
 		if (global.chaves_encontradas[3])
 		{
-			_texto = "Abriu... Mas pera ai... O que eu ia fazer na rua mesmo?"
+			_texto = "Abriu... Mas pera aí... Eu ia sair pra quê mesmo?"
 			audio_play_sound(snd_sfx_porta_casa, 0, 0)
+			instance_create_layer(0, 0, "controladores", obj_controlador_final);
 			finalizado = true
 		}
 		
