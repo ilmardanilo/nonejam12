@@ -4,7 +4,15 @@ if (estado == 1)
 {
     if (!obj_dialogo.ativo)
     {
-        scr_mostrar_dialogo("Ai... minha cabeça...");
+		var _text = ""
+		switch (global.chave_atual)
+        {
+            case 0: _text = "Ai... minha cabeça..."; break;
+            case 1: _text = "Espera... eu já vivi isso antes..."; break;
+            case 2: _text = "Está ficando mais claro... eu consigo ver..."; break;
+            case 3: _text = "Agora eu acho que lembro... de tudo."; break;
+        }
+        scr_mostrar_dialogo(_text);
         estado = 2;
     }
     exit;
