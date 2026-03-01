@@ -90,6 +90,21 @@ if (collision_rectangle(bbox_left, bbox_top, bbox_right, bbox_bottom, obj_jogado
             global.chave_atual++;
             global.interacoes_atuais = 0;
             global.player_precisa_encontrar_chave_antes_de_voltar_a_interagir = false;
+			
+			var _sprite_chave = spr_chave_1
+			switch (chave)
+			{
+			    case 1: _sprite_chave = spr_chave_1; break;
+			    case 2: _sprite_chave = spr_chave_2; break;
+			    case 3: _sprite_chave = spr_chave_3; break;
+			    case 4: _sprite_chave = spr_chave_4; break;
+			}
+			
+			if (!instance_exists(obj_chave_popup))
+			{
+				var _inst = instance_create_layer(0, 0, "controladores", obj_chave_popup);
+				_inst.sprite_index = _sprite_chave;
+			}
 
             instance_destroy();
             exit;
