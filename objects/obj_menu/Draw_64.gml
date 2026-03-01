@@ -1,6 +1,12 @@
 var _mx = device_mouse_x_to_gui(0);
 var _my = device_mouse_y_to_gui(0);
 
+if (mostrando_creditos)
+{
+    draw_creditos();
+    exit;
+}
+
 var _wgui = display_get_gui_width();
 var _hgui = display_get_gui_height();
 
@@ -46,14 +52,20 @@ for (var _i = 0; _i < _tam_menu; _i++)
         {
             switch (_i)
             {
-                case 0:
+                case 0: //Jogar
 					audio_play_sound(snd_sfx_select_1, 0, 0)
 					room_goto(rm_casa);
 					break;
-                case 1:
-					audio_play_sound(snd_sfx_select_2, 0, 0)
-					game_end(); 
-					break;
+
+			    case 1: // Créditos
+			        audio_play_sound(snd_sfx_select_1, 0, 0);
+			        mostrando_creditos = true;
+			        break;
+
+			    case 2: //Sair
+			        audio_play_sound(snd_sfx_select_2, 0, 0);
+			        game_end();
+			        break;
             }
         }
     }
