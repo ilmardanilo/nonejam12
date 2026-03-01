@@ -14,6 +14,7 @@ if (!removendo)
     
     if (keyboard_check_pressed(vk_anykey))
     {
+		global.viu_balao = true;
         removendo = true;
         timer_remover = game_get_speed(gamespeed_fps) * 3;
     }
