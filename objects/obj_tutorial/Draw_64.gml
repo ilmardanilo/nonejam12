@@ -5,7 +5,7 @@ draw_set_font(fnt_tutorial);
 draw_set_halign(fa_left);
 draw_set_valign(fa_top);
 
-var _base_y = _h * 0.80;
+var _base_y = _h * 0.70;
 var _amplitude = 1.5;
 var _velocidade = 1;
 var _outline = 1; // espessura do contorno

@@ -23,7 +23,7 @@ else
 {
     timer_remover--;
     
-    alpha_tutorial = lerp(alpha_tutorial, 0, 0.08);
+    alpha_tutorial = lerp(alpha_tutorial, 0, 0.02);
     
     if (timer_remover <= 0)
     {
